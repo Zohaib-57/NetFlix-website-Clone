@@ -58,15 +58,48 @@ border-radius: 5px;
     padding: 12px;
     width: 250px;
     border: 2px solid white;
-    background-color: transparent;
+    background-color: rgba(238, 226, 226, 0.6);
     border-radius: 7px;
 }
+::placeholder {
+    color: rgb(0, 0, 0);
+ }
 .email-input button{
     padding: 15px;
     color: white;
     background-color: red;
     border: none;
     border-radius: 7px;
+}
+
+
+.tv-section{
+    margin-top: 10px;
+    background-color: rgb(1, 1, 1);
+    width: auto;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tv-section div {
+    margin: 100px;
+}
+.tv-head h1{
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 800;
+}
+.tv-head p{
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.tv-section div img{
+    width: 500px;
+    height: 330px;
 }
 
 
