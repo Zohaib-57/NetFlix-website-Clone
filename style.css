@@ -74,8 +74,8 @@ border-radius: 5px;
 
 
 .tv-section{
-    margin-top: 10px;
-    background-color: rgb(1, 1, 1);
+    margin-top: 13px;
+    background-color: rgb(0, 0, 0);
     width: auto;
     height: 400px;
     display: flex;
@@ -100,6 +100,32 @@ border-radius: 5px;
 .tv-section div img{
     width: 500px;
     height: 330px;
+}
+.download-section{
+    margin-top: 13px;
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.download-heading,.download-img{
+    margin: 50px;
+}
+.download-img img{
+    width: 380px;
+    height: 380px;
+}
+.download-heading h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+}
+.download-heading p{
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
 }
 
 
