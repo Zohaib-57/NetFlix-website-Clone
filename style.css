@@ -24,12 +24,12 @@ body{
 }
 .btn button{
     width: 80px;
-padding: 7px;
-color: white;
-background-color: red;
-margin-right: 150px;
-border: none;
-border-radius: 5px;
+    padding: 7px;
+    color: white;
+    background-color: red;
+    margin-right: 150px;
+    border: none;
+    border-radius: 5px;
 }
 .heading{
     text-align: center;
@@ -56,13 +56,13 @@ border-radius: 5px;
 #email{
     margin: 10px;
     padding: 12px;
-    width: 250px;
+    width: 280px;
     border: 2px solid white;
-    background-color: rgba(238, 226, 226, 0.6);
+    background-color: rgba(238, 226, 226, 0.8);
     border-radius: 7px;
 }
 ::placeholder {
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0,0.6);
  }
 .email-input button{
     padding: 15px;
@@ -71,10 +71,8 @@ border-radius: 5px;
     border: none;
     border-radius: 7px;
 }
-
-
 .tv-section{
-    margin-top: 13px;
+    margin-top: 10px;
     background-color: rgb(0, 0, 0);
     width: auto;
     height: 400px;
@@ -102,7 +100,7 @@ border-radius: 5px;
     height: 330px;
 }
 .download-section{
-    margin-top: 13px;
+    margin-top: 10px;
     background-color: rgb(0, 0, 0);
     width: auto;
     height: 400px;
@@ -114,7 +112,7 @@ border-radius: 5px;
     margin: 50px;
 }
 .download-img img{
-    width: 380px;
+    width: 420px;
     height: 380px;
 }
 .download-heading h1{
@@ -127,6 +125,25 @@ border-radius: 5px;
     font-size: 20px;
     font-weight: 200;
 }
+.extra-heading{
+    margin-top: 13px;
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    height: 400px;
+}
+.extra-heading div{
+    padding: 100px;
+}
+.extra-heading div h1{
+    color:white ;
+    font-size: 60px;
+    font-weight: 700;
 
+}
+.extra-heading div p{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
 
 
