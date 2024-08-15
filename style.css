@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: rgba(128, 128, 128, 0.9);
+    background-color: rgba(24, 24, 24, 0.6);
 }
 .container{
     background: url(./images/background.jpg);
@@ -112,7 +112,7 @@ body{
     margin: 50px;
 }
 .download-img img{
-    width: 420px;
+    width: 450px;
     height: 380px;
 }
 .download-heading h1{
@@ -145,5 +145,27 @@ body{
     font-size: 20px;
     font-weight: 300;
 }
-
+.kids-section{
+    margin-top: 13px;
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    height: 400px;
+    display: flex;
+    place-items: center;
+}
+.kid-img img{
+    margin: 0 100px;
+    width: 500px;
+    height: auto;
+}
+.kids-heading h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+}
+.kids-heading p{
+    font-size: 20px;
+    font-weight: 200;
+    color:white ;
+}
 
