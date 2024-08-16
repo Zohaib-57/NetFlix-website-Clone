@@ -27,6 +27,7 @@ body{
     margin-left: 150px;
     width: 120px;
     height: 40px;
+    margin-top: 10px;
 }
 .btn button {
     width: 80px;
@@ -36,6 +37,7 @@ body{
     margin-right: 150px;
     border: none;
     border-radius: 5px;
+    margin-top: 10px;
 }
 .btn button a{
     color: white;
@@ -126,8 +128,8 @@ text-decoration: none;
     margin: 50px;
 }
 .download-img img{
-    width: 450px;
-    height: 380px;
+    width: 280px;
+    height: 370px;
 }
 .download-heading h1{
     color: white;
@@ -217,6 +219,14 @@ text-decoration: none;
     justify-content: center;
     margin: 7px;
 }
+.email{
+    margin: 10px;
+    padding: 12px;
+    width: 280px;
+    border: 2px solid white;
+    background-color: rgba(238, 226, 226, 0.8);
+    border-radius: 7px;
+}
 .input-container button{
     padding: 15px;
     color: white;
@@ -252,7 +262,7 @@ text-decoration: none;
     font-size: 15px;
     font-weight: 350;
 }
-/* Responsive layout for smaller screens */
+/* Responsive layout for smaller screens
 @media only screen and (max-width: 1200px) {
     .header-logo img {
         margin-left: 50px;
@@ -324,7 +334,7 @@ text-decoration: none;
     .extra-heading div h1 {
         font-size: 35px;
     }
-}
+} */
 
 @media only screen and (max-width: 400px) {
     .header-logo img{
@@ -367,43 +377,95 @@ text-decoration: none;
     .tv-section div img{
         width: 270px;
     }
-    .download-section{
-    }
     .download-img img{
         width: 150px;
         height: 220px;
         margin-top: 20px;
     }
     .download-heading{
-                margin-top: 0;
+        margin-top: 0;
         position: relative;
         bottom: 8%;
     }
     .download-heading h1{
         font-size: 20px;
     }
-
-    .extra-heading  div h1{
-        font-size: 25px;
-        padding: 0;
-    }
     .download-heading p{
         font-size: 15px;
+        font-weight: 370;
     }
-    .input-container {
-        flex-direction: column;
+    .extra-heading{
+        height: 50%;
+    }
+    .extra-heading div{
+     padding: 50px;
+    }
+    .extra-heading  div h1{
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .extra-heading  div p{
+        font-size: 16px;
+        font-weight: 370;
+    }
+    .kid-img img{
+        margin-top: 30px;
+        width: 280px;
+        height: 200px;
+    }
+    .kids-heading{
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .kids-heading h1{
+        font-size: 20px;
+    }
+    .kids-heading p{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .QA-section h1{
+        font-size: 25px;
     }
     .question {
-        flex-direction: column;
+        margin:  10px 0;
+       padding: 0 0px;
     }
     .question p {
-        text-align: center;
+        font-size: 12px;
+        text-align: left;
+    }
+    .question img{
+        margin-top: 10px;
+        margin-right: 5px;
+        width: 16px;
+        height: 16px;
+    }
+    .lower-p{
+        font-size: 12px;
+    }
+    .input-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .email{
+        padding: 8px;
+        width: 180px;
+        margin-left: 0;
+    }
+    .input-container button{
+        padding: 8px 15px;
+        font-size: 15px;
     }
     .footer {
-        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
     }
     .links {
         padding: 20px;
-        text-align: center;
+    }
+    .links ul li a{
+        font-size: 13px;
     }
 }
